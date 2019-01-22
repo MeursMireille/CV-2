@@ -1,0 +1,56 @@
+
+body {
+    
+display: grid;
+
+grid-template-columns: auto;
+
+
+
+
+
+
+background-color: indigo;
+color: silver;
+font-size: 15px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-style: inherit;
+}
+
+.hoofding { 
+width: 900px;
+display: flex;
+justify-content: right;
+background-color: azure;
+
+.werk {
+
+}
+
+
+
+
+
+
+h1 {
+    background-color: indigo;
+    color: silver;
+    font-size: 40px
+}
+
+h2 {
+    background-color: indigo;
+    color: silver;
+    font-size: 30px
+}
+ 
+h3 {
+    background-color: indigo;
+    color: silver;
+    font-size: 20px
+}
+
+
+head {
+    background-color: indigo;
+}
