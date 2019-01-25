@@ -1,56 +1,184 @@
 
-body {
-    
-display: grid;
-
-grid-template-columns: auto;
-
-
-
-
-
-
-background-color: indigo;
-color: silver;
-font-size: 15px;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-font-style: inherit;
+* {margin:0;
+    padding:0;
 }
 
-.hoofding { 
-width: 900px;
-display: flex;
-justify-content: right;
-background-color: azure;
-
-.werk {
-
-}
-
-
-
-
-
-
-h1 {
-    background-color: indigo;
-    color: silver;
-    font-size: 40px
-}
-
-h2 {
-    background-color: indigo;
-    color: silver;
-    font-size: 30px
+ .wrapper {
+     display: grid;
+     grid-column: 1fr 1fr 1fr ;
+     grid-row: 40px auto auto auto 30px;
+     
+     background-color: rgb(121, 183, 212);
+     height: 50%;
+     width: 50%;
+     position: relative;
+     top: 50%;
+     transform: translateY(-50%);
+     margin: 50%;
 }
  
+body {
+    background-color: rgb(121, 183, 212);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: center;
+}
 h3 {
-    background-color: indigo;
-    color: silver;
-    font-size: 20px
+    font: bold;
+    }
+
+.header {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: rgb(35, 81, 165)
+   }
+
+footer {
+    font-display: center;
+    background-color: rgb(35, 81, 165);
+    font-family: Arial, Helvetica, sans-serif;
+    grid-column-start: span 3;
+    font-weight: bold;
+    } 
+ 
+
+.Vaardigheden {
+    background-color: rgb(121, 183, 212);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    grid-column-start: span 3;
+    grid-row: 2;
+    }
+
+.image {
+    background-color: rgb(35, 81, 165); 
+    grid-column: 2;
+    grid-row: 1;
+    } 
+
+img {
+    max-block-size: 70px; 
+    border-radius: 360%;
+    border: solid;
+    border-color: rgb(121, 183, 212);
+    position: relative;
+    top: 0pt
+    }
+
+.Ervaring {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 15px;
+    }
+
+.Datums {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    }
+
+.Studies {
+
+}
+
+.Progammeertaal {
+
+}
+
+.contact {
+
+}
+
+.Interesses {
+
+}
+
+.sociaal {
+    font-family: Arial, Helvetica, sans-serif;
+    font-display: bold;
+    background-color:   rgb(35, 81, 165); 
 }
 
 
-head {
-    background-color: indigo;
-}
+.btn3 {
+    background-color:  rgb(35, 81, 165); 
+    color: black;
+    font-size: 15px;
+    font-family: arial bold;  
+    position: relative;
+    }
+
+    .btn3 a {
+    color: black;
+    }
+
+    .btn:link {
+    color:green;        
+    }
+   .btn:visited {
+    color: orange;
+    }
+
+   .btn:hover {
+    color: hotpink;
+    }
+
+   .btn:active {
+    color:red;
+    }
+
+
+.btn1 {
+    background-color:  rgb(35, 81, 165); 
+    color: black;
+    font-size: 15px;
+    font-family: arial bold;  
+    height: 30px ; 
+    width:  30px;
+    position: relative;
+
+    }
+
+    .btn:link {
+        color:green;        
+    }
+
+    .btn:visited {
+        color: orange;
+    }
+
+    .btn:hover {
+        color: hotpink;
+    }
+
+    .btn:active {
+        color:red;
+    }
+
+    .btn2 {
+        background-color:  rgb(35, 81, 165); 
+        color: black;
+        font-size: 15px;
+        font-family: arial bold;  
+        height: 30px ; 
+        width:  30px;
+        position: relative;
+    
+        }
+
+        .btn:link {
+            color:green;        
+        }
+    
+        .btn:visited {
+            color: orange;
+        }
+    
+        .btn:hover {
+            color: hotpink;
+        }
+    
+        .btn:active {
+            color:red;
+        }
+    
+
+
