@@ -4,17 +4,21 @@
 }
 
  .wrapper {
-     display: grid;
-     grid-column: 1fr 1fr 1fr ;
-     grid-row: 40px auto auto auto 30px;
-     
-     background-color: rgb(121, 183, 212);
-     height: 50%;
-     width: 50%;
-     position: relative;
-     top: 50%;
-     transform: translateY(-50%);
-     margin: 50%;
+    display: grid;
+    background-color: rgb(121, 183, 212);
+    border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    -webkit-border-radius: 15px 15px 15px 15px;
+    border: 6px outset rgb(35, 81, 165);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 40px auto auto auto 40px;
+    grid-template-areas: 
+    " . h c c "
+    " . v s s "
+    " . d e e "
+    " . p i i "
+    " . f f f ";
+
 }
  
 body {
@@ -22,14 +26,14 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
     text-align: center;
+
 }
 h3 {
     font: bold;
     }
 
 .header {
-    grid-column-start: 1;
-    grid-column-end: 4;
+    grid-area: h ;
     background-color: rgb(35, 81, 165)
    }
 
@@ -37,7 +41,6 @@ footer {
     font-display: center;
     background-color: rgb(35, 81, 165);
     font-family: Arial, Helvetica, sans-serif;
-    grid-column-start: span 3;
     font-weight: bold;
     } 
  
@@ -46,10 +49,10 @@ footer {
     background-color: rgb(121, 183, 212);
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    grid-column-start: span 3;
-    grid-row: 2;
+    grid-area: v;
+    
     }
-
+/*
 .image {
     background-color: rgb(35, 81, 165); 
     grid-column: 2;
@@ -64,7 +67,7 @@ img {
     position: relative;
     top: 0pt
     }
-
+*/
 .Ervaring {
    font-family: Arial, Helvetica, sans-serif;
    font-size: 15px;
