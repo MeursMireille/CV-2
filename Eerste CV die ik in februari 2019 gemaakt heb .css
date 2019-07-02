@@ -18,7 +18,6 @@
     " . d e e "
     " . p i i "
     " . f f f ";
-
 }
  
 body {
@@ -26,23 +25,23 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
     text-align: center;
-
 }
+
 h3 {
     font: bold;
-    }
+}
 
 .header {
     grid-area: h ;
     background-color: rgb(35, 81, 165)
-   }
+}
 
 footer {
     font-display: center;
     background-color: rgb(35, 81, 165);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    } 
+} 
  
 
 .Vaardigheden {
@@ -50,8 +49,8 @@ footer {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     grid-area: v;
-    
-    }
+}
+
 /*
 .image {
     background-color: rgb(35, 81, 165); 
@@ -68,15 +67,16 @@ img {
     top: 0pt
     }
 */
+
 .Ervaring {
    font-family: Arial, Helvetica, sans-serif;
    font-size: 15px;
-    }
+}
 
 .Datums {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
-    }
+}
 
 .Studies {
 

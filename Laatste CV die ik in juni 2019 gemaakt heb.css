@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.box {
+  width: 65%;
+  padding-left: 30px;
+  font-family: 'Lora', serif;
+  color: #303841;
+  background-color: #EEEEEE;
+}
+
+.contact {
+  line-height: 1.6;
+}
+
+.titel_box {
+  display: flex;
+  justify-content: space-between;
+} 
+
+.hoofding {
+  line-height: 1.6;
+  box-sizing: border-box;
+  flex-basis: 35%;
+}
+
+.foto_Mireille img {
+  width: 15vw;
+  height: 30vh;
+  margin-top: 30px;
+  opacity: 0.4;
+  padding-right: 50px;
+}
+
+.foto_Mireille img:hover {
+  opacity: 1.0;
+}
+
+.container {
+  width: 99%;
+  margin: 5px;
+  display: flex;
+  letter-spacing: 3px;
+  
+}
+.container h3 {
+  font-family: 'Lora', serif;
+  color: #303841;
+  background-color: #EEEEEE;
+}
+
+.container h1 {
+  color: #EA9215;
+}
+
+.container h4 {
+  color: #EA9215;
+  padding-top: 10px;
+}
+
+th, td {
+  width: 300px;
+  padding-right: 20px;
+  text-align: left;
+}
+
+.ervaring td {
+  width: 250px;
+  padding-bottom: 10px;
+}
+
+.studies td {
+  width: 500px;
+  padding-bottom: 10px;
+}
+
+.studies #schooljaren {
+  width: 90px;
+}
+
+.icon {
+  color: #303841;
+  margin-top: 20px;
+  margin-right: 8px;
+  padding: 15px;
+}
+
+.icon:hover {
+  color: #EA9215;
+}
+
+.competenties {
+  width: 30%;
+  padding: 20px;
+  background-color: #EA9215;
+  color: #EEE4D7;
+  order: -1;
+}
+
+.competenties h4 {
+  color: #303841;
+}
+
+.competenties img {
+  max-width: 100%;
+}
+
+p {
+  line-height: 1.6;
+}
+
+a {
+  color: #EA9215;
+}
+
+a:hover {
+  color: #303841;
+} 
+
+.niveau {
+  display: flex;
+  padding-left: 230px;
+  line-height: 30px;
+}
+
+.rotate {
+  width: 100px;
+  background-color: rgb(5, 34, 34);
+  -ms-transform: rotate(270deg); /* IE 9 */
+  -webkit-transform: rotate(270deg); /* Safari 3-8 */
+  transform: rotate(270deg);
+}
+
