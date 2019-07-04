@@ -118,17 +118,18 @@ a:hover {
   color: #303841;
 } 
 
-.niveau {
+.wrappie {
+  width: auto;
   display: flex;
-  padding-left: 230px;
-  line-height: 30px;
+  margin-top: 20px;
 }
 
-.rotate {
-  width: 100px;
-  background-color: rgb(5, 34, 34);
+.wrappie table {
+  line-height: 45px;
+  width: 40px;
+  height: 40px;
+  margin-left: 30px;
   -ms-transform: rotate(270deg); /* IE 9 */
   -webkit-transform: rotate(270deg); /* Safari 3-8 */
   transform: rotate(270deg);
 }
-
