@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
 .box {
   width: 65%;
   padding-left: 30px;
@@ -10,7 +11,12 @@ body {
   background-color: #EEEEEE;
 }
 
+h2 {
+  margin-top: 40px;
+}
+
 .contact {
+  margin-top: 40px;
   line-height: 1.6;
 }
 
@@ -59,15 +65,27 @@ body {
   padding-top: 10px;
 }
 
-th, td {
+ th, td {
   width: 300px;
   padding-right: 20px;
   text-align: left;
 }
 
+.ervaring {
+  margin-top: 60px;
+}
+
 .ervaring td {
   width: 250px;
   padding-bottom: 10px;
+}
+
+.studies {
+  margin-top: 60px;
+}
+
+.studies #ervaring {
+  width: 90px;
 }
 
 .studies td {
@@ -79,15 +97,8 @@ th, td {
   width: 90px;
 }
 
-.icon {
-  color: #303841;
-  margin-top: 20px;
-  margin-right: 8px;
-  padding: 15px;
-}
-
-.icon:hover {
-  color: #EA9215;
+.doel {
+  margin-top: 60px;
 }
 
 .competenties {
@@ -111,12 +122,23 @@ p {
 }
 
 a {
-  color: #EA9215;
+  color: #EEE4D7;
 }
 
 a:hover {
   color: #303841;
 } 
+
+.icon {
+  color: #303841;
+  margin-top: 20px;
+  margin-right: 8px;
+  padding: 15px;
+}
+
+.icon:hover {
+  color: #EA9215;
+}
 
 .wrappie {
   width: auto;
